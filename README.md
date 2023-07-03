@@ -1,3 +1,3 @@
 # Helloworl
 
-this code prints hello world. its a practice github respirtory 
+This code prints Hello world. it's a practice github repository  
