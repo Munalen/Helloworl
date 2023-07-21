@@ -1,15 +1,13 @@
-#this is a makefile 
+#this is a makefile
 # source https://www.geeksforgeeks.org/c-hello-world-program/
 
-CC= clang 
-CFLAGS =- WALL
+CC= clang
+CFLAGS = -Wall
 
-all:
-    $(CC) $(CFLAGS) clang- helloworld.c
-exec:
-      ./func
+all: hello
+
+hello: helloworld.c
+	$(CC) $(CFLAGS) helloworld.c -o hello
+
 clean:
-    rn-rf func
-    rn-rf -.exc
-    
-
+	rm -rf hello
